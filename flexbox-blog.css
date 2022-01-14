@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 3rem;
+}
+
+h1 {
+  text-align: center;
+  background-color: pink;
+  margin-bottom: 3rem;
+}
+
+.article {
+  background-color: blue;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+}
+
+img {
+  max-width: 710px;
+}
+
+.article__text {
+  padding: 1.5rem 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+.article:nth-child(odd) {
+  flex-direction: row-reverse;
+}
